@@ -1,0 +1,39 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "This the playground project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsnehil92/react-playground.git"
+  },
+  "keywords": [
+    "REACT",
+    "NODE"
+  ],
+  "author": "node <vsnehil92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsnehil92/react-playground/issues"
+  },
+  "homepage": "https://github.com/vsnehil92/react-playground#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
