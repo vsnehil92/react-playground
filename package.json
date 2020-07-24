@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/vsnehil92/react-playground#readme",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
+import State from "./State";
+import LifeCycle from "./LifeCycle";
 
 class Container extends React.Component {
     render() {
-        return <h1>Hello World</h1>
+        return (
+            <>
+                <State />
+                <LifeCycle />
+            </>
+        );
     }
 }
 
-export default Container
+export default Container;
